@@ -14,10 +14,10 @@ security:
 spring:
   profiles: development
   datasource:
-    url: jdbc:mysql://192.168.1.128:3306/dev
+    url: jdbc:mysql://192.168.1.120:3306/accountdb
     username: root
-    password: dbpass
-    initialize: false
+    password: 3g2win.com
+    initialize: true
 security:
   oauth2:
     resource:

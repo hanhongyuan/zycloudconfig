@@ -14,10 +14,10 @@ spring:
     host: 192.168.1.128
     port: 6379
   datasource:
-    url: jdbc:mysql://192.168.1.128:3306/dev?useSSL=false
+    url: jdbc:mysql://192.168.1.120:3306/catalogdb
     username: root
-    password: dbpass
-    initialize: false
+    password: 3g2win.com
+    initialize: true
 eureka:
   instance:
     prefer-ip-address: true

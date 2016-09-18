@@ -21,10 +21,11 @@ security:
 ---
 spring:
   profiles: development
-  data:
-    mongodb:
-      host: 192.168.1.128
-      port: 27017
+  datasource:
+    url: jdbc:mysql://192.168.1.120:3306/orderdb
+    username: root
+    password: 3g2win.com
+    initialize: true
   mvc:
     date-format: "YYYY-MM-dd"
   jackson:
