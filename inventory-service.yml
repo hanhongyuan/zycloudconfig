@@ -9,9 +9,9 @@ spring:
 spring:
   profiles: development
   datasource:
-    url: jdbc:mysql://192.168.1.128:3306/dev2?useSSL=false
+    url: jdbc:mysql://192.168.1.120:3306/inventorydb
     username: root
-    password: dbpass
+    password: 3g2win.com
     initialize: true
   jackson:
     date-format: "YYYY-MM-dd"
